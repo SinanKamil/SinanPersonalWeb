@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<head>
+  <!-- CSS only -->
+  <link rel="stylesheet" href="C:\Users\sinan\OneDrive\Desktop\SinanPersonalWeb\SinanPersonalWeb\Sk_design.css"> 
+  <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href= "https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css%22/%3E"/>
+  <link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a href="/" class="navbar-brand" style="margin-left: 15px;">
+      <img src="images\logo1.png" alt="logo Icon" style="width:50px;height:50px;">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/computers">Computers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/phones">Phones</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/ipads">Ipads</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/accessories">Accessories</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact">Contacts</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+    
+</body>
+
+
+
+<footer>
+  <head>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+      </head>
+      
+      <section>
+        <ul id="services">
+          <h1>Social Media</h1>
+          <li>
+            <div class="facebook">
+              <a href="https://www.facebook.com/profile.php?id=100009888102392">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+            </div>
+            <span>Facebook</span>
+          </li>
+          <li>
+            <div class="twitter">
+              <a href="https://twitter.com/sinankamil99">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+            </div>
+            <span>Twitter</span>
+          </li>
+          <li>
+            <div class="youtube">
+              <a href="https://www.youtube.com/channel/UCqmX5qTbHwHCnixv-wJvEMA?view_as=subscriber">
+                <i class="fa fa-youtube" aria-hidden="true"></i>
+              </a>
+            </div>
+            <span>YouTube</span>
+          </li>
+          <li>
+            <div class="linkedin">
+              <a href="https://www.linkedin.com/in/sinan-kamil-9b5597160/">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+            </div>
+            <span>LinkedIn</span>
+          </li>
+          <li>
+            <div class="instagram">
+              <a href="https://www.instagram.com/sinankamil99/">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+            </div>
+            <span>Instagram</span>
+          </li>
+          <li>
+            <div class="github">
+              <a href="https://github.com/SinanKamil">
+                <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+            </div>
+            <span>Github</span>
+          </li>
+          <p class="cp-text">
+              © Copyright 2020   SK_Website. All rights reserved.
+          </p>
+        </ul>
+        
+      </section>
+      
+</footer>
+
+
+    <!--<a href="MASTER-SinanResume.pdf" target="_blank"> View My Resume </a>-->
+
+
+                
+                      <script>
+
+                        // Menu-toggle button
+                        
+                        $(document).ready(function() {
+                            $(".menu-icon").on("click", function() {
+                                  $("nav ul").toggleClass("showing");
+                            });
+                        });
+                        
+                        // Scrolling Effect
+                        
+                        $(window).on("scroll", function() {
+                            if($(window).scrollTop()) {
+                                  $('nav').addClass('black');
+                            }
+                        
+                            else {
+                                  $('nav').removeClass('black');
+                            }
+                        });
+                        
+
+
+
+                        $("a").click(function(){
+                         var pageId = $(this).attr("data-page");
+                         $("html, body").animate({ scrollTop: $("#"+pageId).offset().top }, 1000);
+                            });
+                 </script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  
+
+    
+
+
+</html>
+
